@@ -20,6 +20,7 @@ public class PeopleServiceImpl implements PeopleService {
         var people = getPeople(id);
         people.setName(newName);
         updatePeople(people);
+        //todo надо откатить
     }
 
     @Override
