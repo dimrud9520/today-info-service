@@ -1,5 +1,7 @@
-package com.rudov.todayinfoservice;
+package com.rudov.todayinfoservice.controller;
 
+import com.rudov.todayinfoservice.repositiry.PeopleRepository;
+import com.rudov.todayinfoservice.entity.People;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

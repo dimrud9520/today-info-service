@@ -1,4 +1,4 @@
-package com.rudov.todayinfoservice;
+package com.rudov.todayinfoservice.restservice;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;

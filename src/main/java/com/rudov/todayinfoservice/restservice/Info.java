@@ -1,4 +1,4 @@
-package com.rudov.todayinfoservice;
+package com.rudov.todayinfoservice.restservice;
 
 import lombok.Builder;
 import lombok.Data;
