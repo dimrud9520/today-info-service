@@ -19,7 +19,7 @@ public class PeopleServiceImpl implements PeopleService {
     public void setPeopleName(Long id, String newName) {
         var people = getPeople(id);
         people.setName(newName);
-//        updatePeople(people);
+        updatePeople(people);
     }
 
     @Override
