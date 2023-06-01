@@ -32,8 +32,8 @@ public class PeopleController {
 
     @RequestMapping(value = "/people/all/{id}", method = RequestMethod.GET)
     public ResponseEntity<People> getById(@PathVariable("id") Long id) {
-        var result = peopleRepository.findById(id).orElseThrow();
-        return new ResponseEntity<>(result, HttpStatus.OK);
+
+        return null;
     }
 
 }
